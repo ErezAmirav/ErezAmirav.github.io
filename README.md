@@ -2,7 +2,7 @@
 
 #### About The Project
 
-Website was made for displaying my learning journey and the various projects I have completed.<br/>
+Website created for displaying my learning journey and the various projects I have completed.<br/>
 Additional content will continue to be updated.<br/>
 
 #### Libraries and Tools used:
