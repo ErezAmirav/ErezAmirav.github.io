@@ -24,6 +24,11 @@
     color: var(--color-light);
 }
 
+.about__content-icon {
+    color: var(--color-white);
+    margin-right: 0.7rem;
+}
+
 @media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
@@ -54,6 +59,7 @@
     .about__content {
         text-align: center;
     }
+
     .about__content p {
         margin: 1.5rem 0;
     }
