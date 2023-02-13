@@ -1,10 +1,14 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/imgs/me.png';
-import { SlGraduation } from 'react-icons/sl';
+import {
+  FaGraduationCap,
+  FaUserCheck,
+  FaUserAlt,
+  FaTools,
+} from 'react-icons/fa';
 import { GiSkills } from 'react-icons/gi';
-import { FaTools } from 'react-icons/fa';
-import { AiOutlineUser } from 'react-icons/ai';
+
 const About = () => {
   return (
     <section id="about">
@@ -19,8 +23,9 @@ const About = () => {
         </div>
         <div className="about__content">
           <p>
-            <SlGraduation className="about__content-icon" />
+            <FaGraduationCap className="about__content-icon" />
             Computer Science Graduate (B.Sc.), <br />
+            <FaUserCheck className="about__content-icon" />
             Fullstack development specialization.
             <br />
             <GiSkills className="about__content-icon" />
@@ -29,7 +34,7 @@ const About = () => {
             <FaTools className="about__content-icon" />
             Framework & Tools: React, NodeJS, MongoDB, Git.
             <br />
-            <AiOutlineUser className="about__content-icon" />
+            <FaUserAlt className="about__content-icon" />
             Ambitious, team player, love to challenge myself.
           </p>
           <a href="#contact" className="btn btn-primary">
