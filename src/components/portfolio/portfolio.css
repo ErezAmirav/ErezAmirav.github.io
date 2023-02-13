@@ -27,7 +27,9 @@
     margin: 1.2rem 0 2rem;
 }
 
-.portfolio__item a {
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
     margin-bottom: 1rem;
 }
 

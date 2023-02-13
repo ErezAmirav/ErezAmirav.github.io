@@ -15,18 +15,44 @@ const Portfolio = () => {
             <img src={EC} alt="" />
           </div>
           <h3>ECommerce Shoes Store</h3>
-          <a href="https://github.com/ErezAmirav/ECommerce" className="btn" target="_blank">
-            Github
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/ErezAmirav/ECommerce"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://erezamirav.github.io/ecommerce/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-img">
             <img src={myWiki} alt="" />
           </div>
           <h3>MyWiki - MediaApi (Wikipedia's API)</h3>
-          <a href="https://github.com/ErezAmirav/MyWiki" className="btn" target="_blank">
-            Github
-          </a>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/ErezAmirav/MyWiki"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://erezamirav.github.io/mywiki/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
