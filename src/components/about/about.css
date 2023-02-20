@@ -58,13 +58,13 @@
 
     .about__content {
         text-align: center;
+
     }
 
     .about__content p {
         margin: 1.5rem 0;
         text-align: left;
-        /* text-align: start; */
-        padding: 1rem;
-        /* padding-left: 0.7rem; */
+        display: inline-block;
+        max-width: 20.5rem;
     }
 }
