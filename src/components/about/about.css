@@ -58,13 +58,13 @@
 
     .about__content {
         text-align: center;
-
+        display: grid;
+        justify-content: center;
     }
 
     .about__content p {
         margin: 1.5rem 0;
         text-align: left;
-        display: inline-block;
         max-width: 20.5rem;
     }
 }
